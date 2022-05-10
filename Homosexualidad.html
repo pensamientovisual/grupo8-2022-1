@@ -115,7 +115,7 @@ d3.csv("https://raw.githubusercontent.com/zizpvisual/Ayu3/main/homo.csv", functi
   // Add a scale for bubble size
   var z = d3.scaleLinear()
     .domain([0, 45])
-    .range([ 4, 350]);
+    .range([ 10, 700]);
 
   // Add a scale for bubble color
   var myColor = d3.scaleOrdinal()
@@ -165,7 +165,7 @@ d3.csv("https://raw.githubusercontent.com/zizpvisual/Ayu3/main/homo.csv", functi
       .attr("class", "bubbles")
       .attr("cx", function (d) { return x(d.cantidad); } )
       .attr("cy", function (d) { return y(d.población); } )
-      .attr("r", function (d) { return z(d.porcentaje); } )
+      .attr("r", function (d) { return z(d.cantidad); } )
       .style("fill", function (d) { return myColor(d.continente); } )
     // -3- Trigger the functions
     .on("mouseover", showTooltip )
