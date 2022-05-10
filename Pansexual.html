@@ -18,10 +18,48 @@
 <!-- Create a div where the graph will take place -->
 <div class="bajada">
   <div id="titulo">
-    <a style="text-decoration: none;">Pansexualidad</a>
+    <a style="text-decoration: none;">Pansexualidad</a> 
+  </div>
+  <div class="intro">
+    <a>Pansexual (Pansexual) (adj.) – Una orientación sexual que describe a una persona que siente atracción sexual y emocional hacia otras personas, independientemente de sus géneros.</a><br><br>
+    <a>El gráfico muestra el porcetaje de la población pansexual de un grupo de países</a>
+  <div>
+
+  </div>
+  
+</div>
+<div id="my_dataviz">
+  <div class="continentes_colores">
+    <div id="Europa">
+      <a style="text-decoration: none;">Europa</a>
+    </div>
+    <div id="América">
+      <a style="text-decoration: none;">América</a>
+    </div>
+    <div id="Oceania">
+      <a style="text-decoration: none;">Oceania</a>
+    </div>
+    <div id="Africa">
+      <a style="text-decoration: none;">Africa</a>
+    </div>
+    <div id="Asia">
+      <a style="text-decoration: none;">Asia</a>
+    </div>
+  </div>
+  <div id="leyenda_ejey">
+    <a style="text-decoration: none;">Población total</a>
+  </div>
+  <div id="leyenda_ejex">
+    <a style="text-decoration: none;">Población comunidad pansexual</a>
   </div>
 </div>
-<div id="my_dataviz"></div>
+<div class="colores">
+  <div id="naranjo"></div>
+  <div id="azul"></div>
+  <div id="verde_claro"></div>
+  <div id="rosado"></div>
+  <div id="verde_oscuro"></div>
+</div>
 <!-- A bit of CSS: change stroke color of circle on hover (white -> black) -->
 <style>
 .bubbles {
@@ -34,7 +72,7 @@
 #my_dataviz {
   background-color: rgb(227, 216, 190);
   position: relative;
-  bottom: 26px;
+  top: 50px;
 }
 </style>
 
@@ -43,7 +81,7 @@
 
 // set the dimensions and margins of the graph
 var margin = {top: 10, right: 20, bottom: 30, left: 50},
-    width = 1200 - margin.left - margin.right,
+    width = 1100 - margin.left - margin.right,
     height = 500 - margin.top - margin.bottom;
 
 // append the svg object to the body of the page

@@ -44,6 +44,7 @@
 .menu ul li a:hover{
     background: rgba(113, 111, 111, 0.221);
 }
+
 .intro{
 
     border-radius: 20px;
@@ -58,4 +59,60 @@
 .intro a{
     color: white;
     font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.continentes_colores{
+    position: relative;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 18px;
+    left: 1130px;
+    top: 225px;
+}
+.colores{
+    position: relative;
+    left:1100px;
+    bottom:440px;
+}
+#naranjo{
+    height: 20px;
+    width:20px;
+    background-color: #fc8d62;
+    margin: 5px;
+}
+#azul{
+    height: 20px;
+    width:20px; 
+    background-color: #8da0cb;
+    margin: 5px;
+}
+#verde_claro{
+    height: 20px;
+    width:20px;
+    background-color: #a6d853;
+    margin: 5px;
+}
+#rosado{
+    height: 20px;
+    width:20px;
+    background-color: #e78ac2;
+    margin: 5px;
+}
+#verde_oscuro{
+    height: 20px;
+    width:20px;
+    background-color: #65c2a5;
+    margin: 5px;
+}
+#leyenda_ejey{
+    position: relative;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 18px;
+    top: 25px;
+    left:20px;
+}
+#leyenda_ejex{
+    position: relative;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 18px;
+    left: 820px;
+    top: 470px
 }
